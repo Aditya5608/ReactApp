@@ -285,6 +285,6 @@ function Yoga() {
   )
 }
 
-
+export default Yoga;
 
 
