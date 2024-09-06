@@ -252,6 +252,7 @@ function Yoga() {
             <img 
               src={poseImages[currentPose]}
               className="pose-img"
+              alt={`${currentPose} pose`}
             />
           </div>
          
@@ -284,4 +285,6 @@ function Yoga() {
   )
 }
 
-export default Yoga
+
+
+

@@ -8,11 +8,12 @@ import './Instructions.css'
 
 export default function Instructions({ currentPose }) {
 
-    const [instructions, setInsntructions] = useState(poseInstructions)
+    const [instructions, setInstructions] = useState(poseInstructions)
 
     return (
         <div className="instructions-container">
             <ul className="instructions-list">
+                
                 {instructions[currentPose].map((instruction) => {
                     return(
                         <li className="instruction">{instruction}</li>
@@ -23,6 +24,8 @@ export default function Instructions({ currentPose }) {
             <img 
                 className="pose-demo-img"
                 src={poseImages[currentPose]}
+                    alt={`${currentPose} image`}
+                
             />
         </div>
     )
