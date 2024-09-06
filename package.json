@@ -2,6 +2,9 @@
   "name": "AyurMate Yoga",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "@tensorflow-models/pose-detection": "^0.0.6",
     "@tensorflow-models/posenet": "^2.2.2",
@@ -39,15 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
-}
-{
-  "name": "ReactApp",
-  "version": "1.0.0",
-  "engines": {
-    "node": "16.x"
-  },
-  "dependencies": {
-    ...
   }
 }
